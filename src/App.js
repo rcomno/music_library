@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useEffect ,useState } from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import React, {Fragment} from 'react';
 import Gallery from "./components/Gallery";
 import SearchBar from "./components/SearchBar";
 import ArtistView from './components/ArtistView';
